@@ -1,4 +1,5 @@
 # USELESS® — PROJECT STATE
+
 ## USELESS-STATE.md
 
 > **Purpose:** Master restart document for the USELESS® sticker project.
