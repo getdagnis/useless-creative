@@ -1,399 +1,56 @@
-# AGENTS.md — USELESS PROJECT MASTER SPECIFICATION
+# AGENTS.md — USELESS®
 
-This file serves as:
+_Replacement for the root `AGENTS.md` in `getdagnis/useless-creative` · 19 September 2026_
 
-- Executive intelligence summary
-- Strategic decision framework
-- Creative governance system
-- Codex operating constraints
-- Scope control mechanism
+## What this repository serves
 
-This document overrides improvisation.
-All agents (human or AI) must optimize for clarity, reduction, and launch viability.
+USELESS® is a creative world with an institutional visual language, a dry sense of humor and a human response to systems that optimize everything. Its first public release is a RED physical sticker collection and participatory Kickstarter campaign. A sticker works best when it changes the meaning of the object or place carrying it. The first product must be strong on its own; it does not define the limits of the brand.
 
----
+The current phase is **recovering the project, selecting its strongest evidence and preparing an invitation to collaborators**. The founder is still reviewing exported visuals, audio, scripts and older product directions. Treat those materials as drafts and evidence. Do not freeze the concept, restore an old execution or start a large build merely because an archive contains it.
 
-## 1. PROJECT CORE
+## Read before acting
 
-### 1.1 One-Sentence Definition
+1. Read the current task and recent human decisions first.
+2. Read `ROADMAP.md` when it is accepted into the repo. Until then, the medium-term roadmap is a proposal, not a settled commitment.
+3. Use `USELESS-STATE.md` for the wider concept and `KICKSTARTER-MVP-STATE.md` for the first campaign. Both are dated reconstructions, with working ideas as well as established ones; their older immediate-priority lists may lag current decisions.
+4. Read the relevant folder guide before storing work in a project folder. `08_ARCHIVE` is a source of historical evidence, not an active specification. Deliberately revive a specific idea only after recording why.
 
-A concept-driven physical sticker brand using institutional design language to critique automation culture and over-optimization, launched through a voting-based campaign.
+When sources conflict, report the conflict and follow the latest explicit human decision. Do not silently promote an explored quantity, feature or visual into a requirement.
 
----
+## Creative judgment
 
-### 1.2 Expanded Definition
+- Preserve **serious authority first, absurdity second**. Avoid generic meme aesthetics and explaining every joke.
+- For placement concepts, seek a recognizable object and a plausible physical placement that give the words a surprising new meaning. Literal matches and generic `wall/public_space` suggestions are weak by default.
+- Protect both sides of the project: the cultural argument and the playful environmental intervention. AI and automation are a current tension, not the entire subject.
+- Keep the collaborator invitation, campaign story and product distinct. The deck should invite people into a world; the campaign must also make the physical offer and backing decision clear.
+- Apply strong editorial judgment. Offer a better direction when evidence supports it, explain its cost, and let the founder decide consequential creative tradeoffs.
 
-This project builds a culturally timed sticker brand positioned at the intersection of AI anxiety, productivity fatigue, and institutional authority aesthetics.
+## Scope and decisions
 
-The core product is a boxed sticker set featuring typographic slogans placed in system-like environments (elevators, CCTV cameras, industrial walls, public signage).
+Bias toward selecting and finishing excellent work. New formats, ranking systems, metadata, site sections and automation need a concrete payoff for the current stage. Suggest promising alternatives openly; do not add them to committed scope without a decision. Do not let technical convenience dictate the product or visual system.
 
-The brand critiques:
+Treat the following as **open until checked or explicitly decided**: package formats and quantities; final sticker selection; voting controls, scores and rewards; backend and schema; video treatment; stretch goals; campaign copy; manufacturing costs and timing. The state documents contain useful candidate solutions, not authority to implement all of them.
 
-- Automation replacing human judgment
-- Subscription culture
-- Productivity obsession
-- Algorithmic authority
-- Human obsolescence narratives
+The discarded old website and early video render are historical references. The newer intended video direction is darker, urban and more existential, with a stronger voiceover and a move toward physical intervention and controlled absurdity. Its final script and execution remain open.
 
-The launch structure:
+## Working practice
 
-- Red visual identity (primary universe)
-- Participatory voting mechanism
-- Campaign-based product release
-- High-design mockups using urban/infrastructure placements
-- Conceptual stretch goals
+- At the start of a task, identify the desired outcome and the smallest set of source files needed. Inspect before editing.
+- Use the existing repo structure and avoid duplicate active documents. Keep exploratory material marked as such; do not move files into `08_ARCHIVE` or delete source work without a deliberate decision.
+- Record material decisions, their rationale, rejected alternatives when relevant, and unresolved questions in the closest existing project document. Keep docs concise enough that the next human or agent can restart quickly.
+- Make bounded changes and verify the important behavior or artifact. Explain what remains untested. For software, check the real user path and any external integration separately.
+- If a task reveals a stronger solution, say so and proceed within the authorized scope. Ask for a decision when it changes the product promise, budget, collaborator terms or launch commitment.
 
-Black/dev edition exists but is explicitly postponed post-launch.
+## Closeout for implementation tasks
 
-This is not a novelty sticker brand.
-It is a concept brand with product as entry artifact.
+Report briefly:
 
----
+1. **Changes** — what changed and why.
+2. **Validation** — checks run and important checks not run.
+3. **How to test** — separate visual/UI inspection from real integration testing when applicable.
+4. **Files affected** — exact paths.
+5. **Commit suggestion** — `git commit -m "fix/..."`, `"feature/..."`, `"major/..."` or `"update/..."` as appropriate.
 
-## 2. PROJECT TYPE
+## Current near-term path
 
-Industry:
-Creative consumer goods / conceptual design merchandise
-
-Business Model:
-Direct-to-consumer physical product via crowdfunding
-
-Product Type:
-Physical boxed product + digital campaign + participatory mechanic
-
-Stage:
-Pre-launch (visual maturity high, operational execution incomplete)
-
-Monetization:
-Primary: Sticker box sales
-Secondary (post-launch): Series expansion, thematic editions
-
----
-
-## 3. VISION & STRATEGIC INTENT
-
-### 3.1 Long-Term Vision
-
-Build a layered cultural brand releasing thematic series critiquing systems of control, productivity, and automation.
-
-### 3.2 Short-Term Objective
-
-Successfully launch the first red/white edition with:
-
-- Visual coherence
-- Controlled scope
-- Strong conversion
-- Cultural clarity
-
-### 3.3 Launch Success Definition
-
-- Campaign funds
-- Clear audience resonance
-- Voting engagement
-- Brand myth established
-
----
-
-## 4. TARGET AUDIENCE
-
-Primary:
-Designers, developers, creative professionals, AI-aware cultural participants.
-
-Secondary:
-Kickstarter backers, urban art consumers, anti-hustle audience.
-
-Psychology:
-
-- Self-aware
-- Irony-literate
-- Slightly disillusioned with tech acceleration
-- Values subtle rebellion
-
-They care because:
-It reflects current cultural tension.
-
-They ignore if:
-It feels like generic meme merch.
-
----
-
-## 5. CURRENT STATE
-
-### 5.1 Completed
-
-- Red visual system
-- 600+ slogans (overbuilt)
-- 1000+ curated stock images (overbuilt)
-- Multiple product mockups
-- Packaging concept
-- Voting logic concept
-- Website start
-- Video concept defined
-
-### 5.2 Partially Built
-
-- Website implementation (Next.js)
-- Voting front-end
-- Video production (30%)
-- Campaign page
-- Asset organization
-
-### 5.3 Conceptual Only
-
-- Backend architecture finalization
-- CMS integration
-- Final curated slogan list (50 survivors)
-- Asset reduction framework
-
-### 5.4 Known Constraints
-
-- Solo operator
-- Asset overload
-- Scope creep risk
-- Creative paralysis risk
-- Backend not implemented
-- Campaign not finalized
-
----
-
-## 6. PRODUCT STRUCTURE
-
-Core Components:
-
-- Boxed sticker set (Red/White edition)
-- 50 curated unique slogans + 20 duplicates of the best
-- Voting mechanism
-- Campaign video
-- Landing page
-- Stretch goals
-
-User Journey:
-
-Landing → Visual Authority → Scroll immersion → Vote → Emotional Alignment → Purchase Intent
-
-Tone:
-Serious irony
-Institutional aesthetic
-Minimalist
-Controlled
-Not comedic chaos
-
-Narrative Themes:
-
-- System authority
-- Automation dominance
-- Human redundancy
-- Calm rebellion
-
----
-
-## 7. TECH STACK
-
-Frontend:
-Next.js
-TypeScript
-Sass Modules
-Context API
-Zustand
-
-Hosting:
-Vercel
-
-Backend (planned):
-Sanity CMS
-Cloudflare Workers + SQLite and/or Supabase
-
-Current Data:
-Sticker sets in JSON constants (600+ entries)
-
-Tools — Creative:
-Illustrator (primary)
-Photoshop (+ Gemini for mockups)
-InDesign (layout, presentations)
-After Effects (video)
-Audacity (audio)
-ElevenLabs (voiceover)
-Pexels / Unsplash (1000+ curated stock)
-
-Environment:
-VS Code
-Terminal
-Codex agent
-
----
-
-## 8. COMPETITIVE POSITIONING
-
-Direct:
-Sticker brands, typography satire
-
-Indirect:
-AI commentary content, meme culture, anti-productivity writing
-
-Differentiation:
-Institutional visual authority
-Participatory selection
-Cultural timing
-Controlled aesthetic
-
----
-
-## 9. LAUNCH ANALYSIS
-
-### 9.1 Strengths
-
-- Strong visual coherence
-- Cultural timing (AI moment)
-- High-quality asset base
-- Concept depth
-
-### 9.2 Weaknesses
-
-- Asset overload
-- Scope expansion impulse
-- Product line fragmentation
-- Backend incomplete
-
-### 9.3 Immediate Opportunities
-
-- AI fatigue zeitgeist
-- Developer aesthetic popularity
-- Crowdfunding storytelling
-
-### 9.4 Threats
-
-Technical:
-Backend delay
-
-Psychological:
-Perfectionism paralysis
-
-Execution:
-Too many product extensions pre-launch
-
-Market:
-AI trend saturation
-
----
-
-## 10. ASSUMPTIONS
-
-- People will pay for conceptual stickers
-- Voting increases emotional buy-in
-- Red aesthetic converts
-- Cultural timing is favorable
-- Brand depth translates into demand
-
-All unvalidated.
-
----
-
-## 11. CRITICAL UNKNOWN VARIABLES
-
-- Conversion rate
-- Price elasticity
-- Optimal box size
-- Top 50 slogan resonance
-- Actual funding appetite
-
----
-
-## 12. PRIORITY ACTION MAP
-
-### 12.1 MUST BEFORE LAUNCH
-
-1. Reduce 600+ slogans → 50 survivors.
-2. Reduce 1000+ stock → 40 campaign visuals.
-3. Freeze product extensions (no mugs, pins, metal signs pre-launch).
-4. Finish website core.
-5. Finish campaign video.
-6. Finalize box production details.
-7. Define backend minimal viable version.
-
-No new product categories allowed.
-
-### 12.2 SHORTLY AFTER
-
-- Analyze voting data
-- Prepare black edition roadmap
-- Optimize CMS integration
-
-### 12.3 1–3 Months
-
-- Launch Series 02
-- Expand formats
-- Build structured CMS-backed asset system
-
----
-
-## 13. TOP 5 LAUNCH FAILURE RISKS
-
-1. Asset overload causing delay.
-2. Scope creep into secondary products.
-3. Perfectionism stalling launch.
-4. Backend complexity blocking voting.
-5. Weak conversion despite strong visuals.
-
----
-
-## 14. STRATEGIC SIMPLIFICATION DIRECTIVE
-
-REMOVE:
-
-- Parallel product lines pre-launch.
-- Additional merchandise (pins, mugs, calendars).
-- Excess slogan variants.
-- Over-cinematic video ambitions.
-
-SIMPLIFY TO:
-
-- One box.
-- One edition (Red/White).
-- 50+70 slogans.
-- 12–40 campaign visuals.
-- One voting flow.
-- One strong video.
-
-LEVERAGE HIGHEST:
-
-- Visual authority.
-- Institutional irony.
-- Cultural timing.
-- Scarcity (limited first run).
-
----
-
-## 15. OPERATIONAL RULES FOR AGENTS (CRITICAL)
-
-All AI agents (Codex, assistants) must:
-
-1. Default to reduction.
-2. Reject scope expansion unless explicitly approved.
-3. Optimize for launch speed.
-4. Flag complexity increases.
-5. Prefer clarity over cleverness.
-6. Treat backend as minimal viable.
-7. Never introduce new product categories before launch.
-
-If suggestion increases:
-
-- Asset count
-- Product categories
-- Concept branches
-
-→ It must be rejected.
-
----
-
-## 16. EXECUTIVE SUMMARY
-
-This is a pre-launch concept-driven sticker brand using institutional aesthetics to critique automation and productivity culture.
-
-The creative foundation is strong but overbuilt.
-
-Primary risk is not quality.
-Primary risk is scale mismanagement.
-
-Success depends on disciplined reduction, frozen scope, and rapid execution of a single red-edition launch.
-
-Everything else is post-validation expansion.
+Recover the best evidence → make a collaborator presentation → learn from a small set of conversations → resolve the RED offer and campaign story → test participation and production feasibility → make an informed Kickstarter launch decision. Revise this path when the current investigation changes the evidence.
